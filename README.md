@@ -20,6 +20,7 @@ The spectral data used in this project is publicly available through the DJA arc
 
 🔗 https://s3.amazonaws.com/msaexp-nirspec/extractions/nirspec_graded.html?&sn50_min=3
 
+Note: The workflow was not fully automated, as visual inspection was required due to the high variability and complexity of the objects in the dataset.
 ---
 
 ## ⚙️ Features
