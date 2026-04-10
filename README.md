@@ -82,7 +82,7 @@ This notebook focuses on fitting emission lines and estimating the **Star Format
 * Conversion of Hα luminosity into SFR using standard relations
 
 ```bash
-notebooks/01_emission_line_fitting.ipynb
+fitting.py
 ```
 
 ---
