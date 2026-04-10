@@ -126,3 +126,10 @@ This notebook contains tools for **data exploration and visualization**:
 ```bash
 Graph_SFR.ipynb
 ```
+
+## ⚠️ Note
+
+These notebooks are provided solely to showcase the analysis tools and methodology developed in this project.
+
+They are **not intended for production use, reuse, or external contributions (e.g., pull requests)**. The content is shared for demonstration purposes only and may not reflect the full, validated pipeline or final scientific results.
+
