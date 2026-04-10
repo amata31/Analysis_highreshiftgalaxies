@@ -20,7 +20,6 @@ The spectral data used in this project is publicly available through the DJA arc
 
 🔗 https://s3.amazonaws.com/msaexp-nirspec/extractions/nirspec_graded.html?&sn50_min=3
 
-Note: The workflow was not fully automated, as visual inspection was required due to the high variability and complexity of the objects in the dataset.
 ---
 
 ## ⚙️ Features
@@ -72,6 +71,7 @@ For the analytic approximation of the Voigt-Hjerting function used in Lyman-α m
 
 ---
 ## 📓 Notebooks
+Note: The workflow was not fully automated, as visual inspection was required due to the high variability and complexity of the objects in the dataset.
 
 ### 1. Emission Line Fitting & Star Formation Rate (SFR)
 
@@ -96,7 +96,7 @@ This notebook performs fitting of **neutral hydrogen absorption** using Lyman-α
 * Estimation of HI column density and physical parameters
 
 ```bash
-notebooks/02_lya_hi_fitting.ipynb
+voigt.py
 ```
 
 ---
@@ -110,7 +110,7 @@ This notebook generates **BPT diagnostic diagrams** to classify galaxies:
 * Visualization of diagnostic regions
 
 ```bash
-notebooks/03_bpt_diagrams.ipynb
+BPT.py
 ```
 
 ---
@@ -122,7 +122,7 @@ This notebook contains tools for **data exploration and visualization**:
 * Spectral plotting with Matplotlib
 * Line highlighting and annotations
 * Multi-panel figures for professional-quality plots
-
+* Find correlations between parameters (e.g., SFR and z)
 ```bash
-notebooks/04_visualization_matplotlib.ipynb
+Graph_SFR.ipynb
 ```
