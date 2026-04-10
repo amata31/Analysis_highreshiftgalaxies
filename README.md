@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project focuses on the analysis of astronomical spectroscopy data obtained from the **James Webb Space Telescope (JWST)**, specifically using **NIRSpec** observations from the **JADES Data Archive (Cosmic Dawn Center)**.
+This project focuses on the analysis of astronomical spectroscopy data obtained from the **James Webb Space Telescope (JWST)**, specifically using **NIRSpec** observations from the ** Data Archive of the Cosmic Dawn Center**.
 
 The work involves building Python-based pipelines for:
 
@@ -16,7 +16,7 @@ These tools enable the extraction of **physical parameters** and the interpretat
 
 ## 📂 Data Source
 
-The spectral data used in this project is publicly available through the JADES archive:
+The spectral data used in this project is publicly available through the DJA archive:
 
 🔗 https://s3.amazonaws.com/msaexp-nirspec/extractions/nirspec_graded.html?&sn50_min=3
 
