@@ -70,3 +70,58 @@ For the analytic approximation of the Voigt-Hjerting function used in Lyman-α m
 * Contribute to the understanding of early galaxy formation
 
 ---
+## 📓 Notebooks
+
+### 1. Emission Line Fitting & Star Formation Rate (SFR)
+
+This notebook focuses on fitting emission lines and estimating the **Star Formation Rate (SFR)** using the **Hα line**:
+
+* Gaussian fitting of emission lines (e.g., Hα)
+* Flux extraction and calibration
+* Conversion of Hα luminosity into SFR using standard relations
+
+```bash
+notebooks/01_emission_line_fitting.ipynb
+```
+
+---
+
+### 2. Neutral Hydrogen (HI) & Lyman-α Modeling
+
+This notebook performs fitting of **neutral hydrogen absorption** using Lyman-α profiles:
+
+* Voigt profile fitting to absorption lines
+* Implementation of the **Tepper-García approximation** for efficient computation
+* Estimation of HI column density and physical parameters
+
+```bash
+notebooks/02_lya_hi_fitting.ipynb
+```
+
+---
+
+### 3. BPT Diagrams (Galaxy Classification)
+
+This notebook generates **BPT diagnostic diagrams** to classify galaxies:
+
+* Emission line ratio calculations (e.g., [OIII]/Hβ, [NII]/Hα)
+* Star-forming vs AGN classification
+* Visualization of diagnostic regions
+
+```bash
+notebooks/03_bpt_diagrams.ipynb
+```
+
+---
+
+### 4. Data Visualization
+
+This notebook contains tools for **data exploration and visualization**:
+
+* Spectral plotting with Matplotlib
+* Line highlighting and annotations
+* Multi-panel figures for professional-quality plots
+
+```bash
+notebooks/04_visualization_matplotlib.ipynb
+```
