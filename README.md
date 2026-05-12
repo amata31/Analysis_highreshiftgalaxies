@@ -7,7 +7,6 @@ This project focuses on the analysis of astronomical spectroscopy data obtained 
 The work involves building Python-based pipelines for:
 
 * Data preprocessing
-* Spectral analysis
 * Model fitting
 * Lyman α fitting and neutral hydrogen estimation
 
