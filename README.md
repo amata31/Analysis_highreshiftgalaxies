@@ -9,6 +9,7 @@ The work involves building Python-based pipelines for:
 * Data preprocessing
 * Spectral analysis
 * Model fitting
+* Lyman alpha fitting and neutral hydrogen estimation
 
 These tools enable the extraction of **physical parameters** and the interpretation of **high-redshift sources**, contributing to the study of galaxy formation and evolution in the early universe.
 
