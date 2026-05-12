@@ -37,9 +37,8 @@ The spectral data used in this project is publicly available through the DJA arc
 
 The analysis combines observational data with theoretical modeling. In particular:
 
-* Spectral profiles are modeled using **Voigt functions**
-* Efficient approximations are implemented for performance and stability
-* Special attention is given to **Lyman-α line modeling**, critical for high-redshift studies
+* Spectral analysis tool for infared spectra
+* Special attention is given to **Lyman-α line modeling** modeled using analytical **Voigt functions** to obtain neutral hydrogen, critical for high-redshift studies
 
 ---
 
