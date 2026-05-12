@@ -9,7 +9,7 @@ The work involves building Python-based pipelines for:
 * Data preprocessing
 * Spectral analysis
 * Model fitting
-* Lyman alpha fitting and neutral hydrogen estimation
+* Lyman α fitting and neutral hydrogen estimation
 
 These tools enable the extraction of **physical parameters** and the interpretation of **high-redshift sources**, contributing to the study of galaxy formation and evolution in the early universe.
 
@@ -38,7 +38,7 @@ The spectral data used in this project is publicly available through the DJA arc
 The analysis combines observational data with theoretical modeling. In particular:
 
 * Spectral analysis tool for infared spectra
-* Special attention is given to **Lyman-α line modeling** modeled using analytical **Voigt functions** to obtain neutral hydrogen, critical for high-redshift studies
+* Special attention is given to **Lyman-α line modeling** to obtain neutral hydrogen, critical for high-redshift studies
 
 ---
 
